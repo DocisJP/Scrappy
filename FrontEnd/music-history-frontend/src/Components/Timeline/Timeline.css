@@ -1,0 +1,63 @@
+.description-collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.description-expanded {
+  display: block;
+}
+
+.read-more-button {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.card-background {
+  background: rgb(40, 27, 81);
+}
+
+.card-border {
+  border-right: 7px solid rgb(40, 27, 81);
+}
+
+.icon-background {
+  background: rgb(40, 27, 81);
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.custom-date-style {
+  font-size: 2rem;
+  color: #999;
+  text-align: float-center;
+}
+
+.main-title {
+  font-size: 3rem;
+  background: linear-gradient(
+    to bottom,
+    rgb(40, 27, 81) 50%,
+    rgb(20, 18, 18) 30%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.body {
+  background-color: rgba(240, 240, 240, 0.188);
+}

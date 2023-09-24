@@ -1,0 +1,9 @@
+<div>
+    <form id="scrapeForm" method="post">
+        {% csrf_token %}
+        <h2>Scrape Form</h2>
+        Title: <input type="text" name="title" id="title"><br>
+        URL: <input type="text" name="url" id="url"><br>
+        <button type="submit">Submit Form</button>
+    </form>
+</div>
